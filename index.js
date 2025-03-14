@@ -1,13 +1,19 @@
 const express = require("express")
 const mongoose = require("mongoose")
 
+const userRouter = require("./src/routes/userRouter")
+
 const app = express()
 
-app.get("/", (req, res) => {
-    res.json({
-        data: "stinky test"
-    })
-})
+app.use(express.json())
+
+// app.get("/", (req, res) => {
+//     res.json({
+//         data: "stinky test"
+//     })
+// })
+
+app.use("/users", userRouter)
 
 app.listen(3000, async () => {
     console.log("server started")
