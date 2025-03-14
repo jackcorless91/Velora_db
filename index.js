@@ -5,6 +5,7 @@ const userRouter = require("./src/routes/userRouter")
 const productRouter = require("./src/routes/productRouter")
 const wishlistRouter = require("./src/routes/wishlistRouter")
 const cartRouter = require("./src/routes/cartRouter")
+const orderRouter = require("./src/routes/orderRouter")
 
 const app = express()
 
@@ -14,6 +15,7 @@ app.use("/user", userRouter)
 app.use("/product", productRouter)
 app.use("/wishlist", wishlistRouter)
 app.use("/cart", cartRouter)
+app.use("/order", orderRouter)
 
 app.listen(3000, async () => {
     console.log("server started")
