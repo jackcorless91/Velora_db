@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="394d3bd8-dc4d-4e30-87fb-8fe8b39e9d06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/productController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/wishlistController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/wishlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/productRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/wishlistRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/wishlistController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/wishlistController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/productRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/productRouter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/userRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/wishlistRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/wishlistRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741913086428</updated>
-      <workItem from="1741913087508" duration="10537000" />
+      <workItem from="1741913087508" duration="12054000" />
     </task>
     <servers />
   </component>

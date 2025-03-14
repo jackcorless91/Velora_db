@@ -62,7 +62,9 @@ productRouter.delete("/:productId", async (req, res) => {
     const deletedProduct = await deleteProduct(req.params.productId)
     if (deletedProduct) {
         res.json(deletedProduct)
-        console.log(`User with id ${req.params.productId} deleted successfully`)
+        console.log(`Product with id ${req.params.productId} deleted successfully`)
+    } else {
+        res.status(404).json({ error: `Product with id ${req.params.productId} not found` })
     }
 })
 

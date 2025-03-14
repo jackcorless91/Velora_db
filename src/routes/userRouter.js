@@ -64,6 +64,8 @@ userRouter.delete("/:userId", async (req, res) => {
     if (deletedUser) {
         res.json(deletedUser)
         console.log(`User with id ${req.params.userId} deleted successfully`)
+    } else {
+        res.status(404).json({ error: `User with id ${req.params.userId} not found` })
     }
 })
 
