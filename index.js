@@ -6,6 +6,7 @@ const productRouter = require("./src/routes/productRouter")
 const wishlistRouter = require("./src/routes/wishlistRouter")
 const cartRouter = require("./src/routes/cartRouter")
 const orderRouter = require("./src/routes/orderRouter")
+const paymentRouter = require("./src/routes/paymentRouter")
 
 const app = express()
 
@@ -16,6 +17,7 @@ app.use("/product", productRouter)
 app.use("/wishlist", wishlistRouter)
 app.use("/cart", cartRouter)
 app.use("/order", orderRouter)
+app.use("/payment", paymentRouter)
 
 app.listen(3000, async () => {
     console.log("server started")
@@ -28,7 +30,7 @@ app.listen(3000, async () => {
 // carts - done
 // products - done
 // wishlists - done
-// orders
-// payments
+// orders - done
+// payments - done
 // reviews
 // categories
